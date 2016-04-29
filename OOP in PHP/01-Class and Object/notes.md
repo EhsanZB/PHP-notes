@@ -17,7 +17,7 @@
 * `Classes` start with an uppercase. If a class has multiple words, `PascalCase` is used.
 * `Method` definitions inside the class are named using the `camelCase`.
 
-> _A class should also represent one thing, one responsibility. This is known as the __single responsibility principle__._
+> _A class should also represent one thing, one responsibility. This is known as the `single responsibility principle`._
 
 
 ```php
@@ -26,8 +26,7 @@
 class Person
 {
 
-
-    public $name; // var $name;
+    public $name; // equal to 'var $name;'
 
     function __construct($defaultName){
         echo "new person '$defaultName' has been created!" . "<br>";
