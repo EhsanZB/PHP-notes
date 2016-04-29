@@ -1,7 +1,7 @@
 # PHP-notes
 PHP syntax, definitions, important hints, examples and more ...
 
-> This tutorial has been compiled from variety of sources throughout the Web, articles, books and videos. Learn in more details at [official PHP website](www.http://php.net/).
+> This tutorial has been compiled from variety of sources throughout the Web, articles, books and videos. Learn in more details at [official PHP website](http://php.net/).
 
 ### Topics:
 
