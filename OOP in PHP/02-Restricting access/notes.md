@@ -7,19 +7,19 @@
     3. protected
     4. static
 
-> _Methods and properties with the __public__ scope are `accessible internally and externally`._
+> Methods and properties with the __public__ scope are `accessible internally and externally`.
 
 * Using the `'->'`, methods and properties that are in scope can be
   accessed.
 
-> _Methods and properties with the __protected__ scope are only `accessible within itself or child classes`._
+> Methods and properties with the __protected__ scope are only `accessible within itself or child classes`.
 
 * a child class can access the parent public and protected methods.
 
-> _Methods and properties declared __private__ are only `accessible within itself`._
+> Methods and properties declared __private__ are only `accessible within itself`.
 
 * Child classes can not access private methods and properties of the parent.
 
-> _Methods and properties declared __statict__ can be `called without instantiating` a class. To call static types, use the `::` operator._
+> Methods and properties declared __statict__ can be `called without instantiating` a class. To call static types, use the `::` operator.
 
 * all objects created from a class with a static property will `share` the same value for that property.
