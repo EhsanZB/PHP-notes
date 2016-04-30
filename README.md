@@ -9,5 +9,6 @@ PHP syntax, definitions, important hints, examples and more ...
 2. OOP in PHP
     1. Class and Object
     2. Restricting access
-    3. Inheritance (_in progress_)
+    3. Inheritance
+    4. Type hinting (_in progress_)
 
