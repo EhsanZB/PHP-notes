@@ -8,5 +8,6 @@ PHP syntax, definitions, important hints, examples and more ...
 1. PHP basics (_in progress_)
 2. OOP in PHP
     1. Class and Object
-    2. Restricting access (_in progress_)
+    2. Restricting access
+    3. Inheritance (_in progress_)
 
