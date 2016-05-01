@@ -1,7 +1,7 @@
 ## Abstract class
 
 * Similar to interfaces, abstract classes help establish a contract between objects.
-* In Abstract classes (instead of Interfaces), we can define `common methods` in which all classes extending from our defined abstract class will `inherit` the common method (including its implementation).
+* In Abstract classes (not in interfaces), we can define `common methods` in which all classes extending from our defined abstract class will `inherit` the common method (including its implementation).
 * We can create abstract classes in php using `'abstract'` keyword.
 
 > Abstract classes are those classes which `can not be directly initialized`.
