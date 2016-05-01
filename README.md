@@ -11,5 +11,6 @@ PHP syntax, definitions, important hints, examples and more ...
     2. Restricting access
     3. Inheritance
     4. Type hinting
-    5. Interfaces (_in progress_)
+    5. Interfaces
+    6. Abstract class (_in progress_)
 
