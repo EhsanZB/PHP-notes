@@ -12,5 +12,5 @@ PHP syntax, definitions, important hints, examples and more ...
     3. Inheritance
     4. Type hinting
     5. Interfaces
-    6. Abstract class (_in progress_)
+    6. Abstract class
 
