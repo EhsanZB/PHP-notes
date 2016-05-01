@@ -24,7 +24,7 @@ interface MyInterface
 ```php
 <?php
 
-// forces Person classes to implement the specified methods in the interface
+// forces Person class to implement the specified methods in the interface
 class Person implements MyInterface
 {
     public $name;
