@@ -13,4 +13,5 @@ PHP syntax, definitions, important hints, examples and more ...
     4. Type hinting
     5. Interfaces
     6. Abstract class
+    7. Error handling
 
