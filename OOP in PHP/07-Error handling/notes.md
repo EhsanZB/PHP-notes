@@ -5,7 +5,7 @@
 * Exceptions are used for `communicating error states` between different objects.
 * Exceptions allow errors to be gracefully `handled`.
 
-> __When an error is detected, the class can throw an exception.__
+> _When an error is detected, the class can throw an exception._
 
 * Note that an instance of the `PHP built-in class Exception` is what's thrown.
 
