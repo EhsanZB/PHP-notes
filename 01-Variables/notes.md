@@ -1,5 +1,7 @@
 ## Variables
 
+* [List of all supported timezones.](http://php.net/manual/en/timezones.php)
+
 ### Date
 
 ```php
@@ -29,3 +31,19 @@ $birthdate = mktime(0,0,0,8,26,1981);    // ($hour,$minute,$second,$month,$day,$
 echo $birthdate;                         // 367657200
 echo date("F d, Y h:i a",$birthdate);    // August 26, 1981 12:00 am
 ```
+
+##### Example:
+Getting the default timezone
+
+```php
+<?php
+date_default_timezone_set('America/Los_Angeles');
+$script_tz = date_default_timezone_get();
+
+if (strcmp($script_tz, ini_get('date.timezone'))){
+    echo 'Script timezone differs from ini-set timezone.';
+} else {
+    echo 'Script timezone and ini-set timezone match.';
+}
+?>
+
