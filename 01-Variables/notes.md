@@ -1,5 +1,24 @@
 ## Variables
 
+* declaring a variable using `$`
+```php
+<?php
+$name = 'Ehsan';
+
+echo "Hello $name";     // Hello Ehsan
+echo 'Hello $name';     // Hello $name
+```
+* concatenation using period
+
+```php
+<?php
+echo "Hello " . $name;  // Hello Ehsan
+echo 'Hello ' . $name;  // Hello Ehsan
+
+$lastName = 'ZB';
+echo 'Hello ' . $name . ' ' . $lastName; // Hello Ehsan ZB
+```
+
 * [List of all supported timezones.](http://php.net/manual/en/timezones.php)
 
 ### Date
