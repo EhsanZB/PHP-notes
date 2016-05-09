@@ -3,6 +3,7 @@
 * declaring a variable using `$`
 ```php
 <?php
+
 $name = 'Ehsan';
 
 echo "Hello $name";     // Hello Ehsan
@@ -12,6 +13,7 @@ echo 'Hello $name';     // Hello $name
 
 ```php
 <?php
+
 echo "Hello " . $name;  // Hello Ehsan
 echo 'Hello ' . $name;  // Hello Ehsan
 
@@ -19,9 +21,99 @@ $lastName = 'ZB';
 echo 'Hello ' . $name . ' ' . $lastName; // Hello Ehsan ZB
 ```
 
-* [List of all supported timezones.](http://php.net/manual/en/timezones.php)
+### String
+
+> strlen( );
+
+```php
+<?php
+
+$str1 = " This is a test   ";  // note the white spaces!
+echo strlen($str1);            // 18: number of characters including white spaces
+```
+> trim( );
+
+* strips whitespace from the `beginning and end` of strings (for example, tabs, spaces, newline characters, carriage returns)
+
+```php
+<?php
+
+echo trim($str1);              // This is a test
+echo strlen(trim($str1));      // 14
+````
+> rtrim( );
+
+* strips whitespace (or other characters) from the `end of a string`.
+
+> strtolower( );
+> strtoupper( );
+> ucfirst( );
+> ucwords( );
+> lcfirst( );
+
+```php
+<?php
+
+$messy_string = "tHe eARth IS 4 BILlioN yEarS OlD!";
+$string = "hello world.";
+
+echo strtolower($messy_string);    // the earth is 4 billion years old!
+echo strtoupper($messy_string);    // THE EARTH IS 4 BILLION YEARS OLD!
+echo ucfirst($string);             // Hello world
+echo ucwords($string);             // Hello World
+echo lcfirst(strtoupper($string)); // hELLO WORLD.
+```
+> string substr
+
+* substr( string $string , int $start [, int $length ] )
+* if length omitted, the substring starting from start `until the end of the string`.
+* note that it's a `zeo-based` index.
+
+```php
+<?php
+
+////////012345//////////
+$str = "abcdef";
+
+echo substr($str,2);    // cdef
+echo substr($str,1,3);  // bcd
+echo substr($str,0,2);  // ab
+echo substr($str,0,3);  // abc
+echo substr($str,-2);   // ef
+echo substr($str,-4,2); // cd
+```
+
+> strrev( );
+
+```php
+<?php
+
+$str = "FEDCBA";
+echo strrev($str);     // ABCDEF
+```
+
+> isset( );
+
+* isset( ) determines whether a `variable exists or not`. A variable that is never declared will `return false`.
+* the oppossite of isset is unset( )
+
+```php
+<?php
+
+//$variable;
+$variable = 5;
+
+if (isset($variable)){
+    echo "variable is set";
+}else{
+    echo "variable is NOT set";
+}
+```
+
 
 ### Date
+
+* [List of all supported timezones.](http://php.net/manual/en/timezones.php)
 
 ```php
 <?php
